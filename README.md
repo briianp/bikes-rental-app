@@ -25,14 +25,7 @@ App móvil en **Flutter** para controlar la renta de bicicletas en varias sucurs
 - Una bici no puede tener dos rentas activas. El servidor lo valida dentro de una transacción.
 - Cada empleado solo ve los datos de **su sucursal** (Row Level Security).
 
-### Cuentas del modo demo
 
-| Rol | Correo | Contraseña |
-| --- | --- | --- |
-| Empleado (Sucursal Centro) | `demo@bikes.com` | `123456` |
-| Administrador | `admin@bikes.com` | `123456` |
-
-En el login hay botones para entrar con cada una. Códigos de prueba en la Sucursal Centro: `BK-001` y `BK-003` (libres), `BK-002` (en renta).
 
 ## Tecnologías
 
