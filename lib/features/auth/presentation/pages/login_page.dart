@@ -154,21 +154,6 @@ class _DemoCredentialsCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Row(
-              children: [
-                Icon(Icons.info_outline_rounded, color: AppColors.info),
-                SizedBox(width: 12),
-                Expanded(
-                  child: Text(
-                    'Modo demo · contraseña: ${DemoCredentials.employeePassword}',
-                    style: TextStyle(
-                      color: AppColors.textSecondary,
-                      fontSize: 13,
-                    ),
-                  ),
-                ),
-              ],
-            ),
             const SizedBox(height: 4),
             Wrap(
               alignment: WrapAlignment.center,
